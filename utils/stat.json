@@ -1,0 +1,16 @@
+{
+	"sent": {
+		"chat": 141,
+		"image": 6,
+		"sticker": 23,
+		"video": 1,
+		"ptt": 2,
+		"e2e_notification": 1
+	},
+	"receive": {
+		"chat": 325,
+		"sticker": 50,
+		"image": 8,
+		"call_log": 1
+	}
+}
