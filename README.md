@@ -11,8 +11,8 @@
 |       ✅       | Reply A Photo                    |
 |       ✅       | Image Url                        |
 |       ✅       | Animated sticker using giphy url |
-|       https://bit.ly/3hmgD4R       | sticker with no background       |
-|       https://bit.ly/3hmgD4R       | sticker meme      |
+|       ✅       | sticker with no background       |
+|       ✅       | sticker meme                     |
 
 
 | Downloader |                     Feature                |
@@ -20,7 +20,7 @@
 |       ✅        |   Tiktok Downloader (No WM & WM)              |
 |       ✅        |   Twitter Video Downloader                    |
 |       ✅        |   Facebook Video Downloader (SD & HD)         |
-|       ✅      |   Instagram Video Downloader                  |
+|       ✅        |   Instagram Video Downloader                  |
 
 
 | Other  |                     Feature                     |
@@ -38,7 +38,7 @@
 |       ✅        |   Demote User                   |
 |       ✅        |   Kick User                     |
 |       ✅        |   Delete bot message            |
-|       https://bit.ly/3hmgD4R        |   Mention All User      |
+|       ✅        |   Mention All User      |
 
 ## To-Do
  - Add More Feature
