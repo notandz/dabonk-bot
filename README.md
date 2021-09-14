@@ -19,7 +19,8 @@
 <a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/MAINTENED-YES-blue.svg"</a>
 </p>
  
-<h1 align="center"># Whatsapp BOT - DABONK.</h1>
+ 
+ 
 ## Features
 
 | Sticker Creator |                Feature           |
