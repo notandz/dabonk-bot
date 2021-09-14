@@ -78,10 +78,8 @@ module.exports = msgHandler = async (client, message) => {
                     console.log(`Sticker Processed for ${processTime(t, moment())} Second`)
                 })
             } else if (args[0] === 'nobg') {
-                /**
-                * This is Premium feature.
-                * Check premium feature at https://trakteer.id/red-emperor/showcase or chat Author for Information.
-                */
+                /**masih belom tk isi */
+                
                 client.reply(from, 'ehhh, what\'s that???', id)
             } else if (args.length === 1) {
                 if (!is.Url(url)) { await client.reply(from, 'Maaf, link yang kamu kirim tidak valid. [Invalid Link]', id) }
