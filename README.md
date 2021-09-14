@@ -13,9 +13,9 @@
 </p>
 <p align="center">
 <a href="https://github.com/ditinggalrabi/followers"><img title="Followers" src="https://img.shields.io/github/followers/mhankbarbar?color=blue&style=flat-square"></a>
-<a href="https://github.com/mhankbarbar/whatsapp-bot/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/mhankbarbar/whatsapp-bot?color=red&style=flat-square"></a>
-<a href="https://github.com/mhankbarbar/whatsapp-bot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/mhankbarbar/whatsapp-bot?color=red&style=flat-square"></a>
-<a href="https://github.com/mhankbarbar/whatsapp-bot/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/mhankbarbar/whatsapp-bot?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/ditinggalrabi/dabonk-bot/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/ditinggalrabi/dabonk-bot?color=red&style=flat-square"></a>
+<a href="https://github.com/ditinggalrabi/dabonk-bot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/ditinggalrabi/dabonk-bot?color=red&style=flat-square"></a>
+<a href="https://github.com/ditinggalrabi/dabonk-bot/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/ditinggalrabi/dabonkbot?label=Watchers&color=blue&style=flat-square"></a>
 <a href="#"><img title="UNMAINTENED" src="https://img.shields.io/badge/UNMAINTENED-YES-blue.svg"</a>
 </p>
 
