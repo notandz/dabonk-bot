@@ -55,7 +55,7 @@ Clone this project
 
 ```bash
 > git clone https://github.com/ditinggalrabi/dabonk-bot
-> cd imageToSticker
+> cd dabonnk-bot
 ```
 
 Install the dependencies:
