@@ -1,7 +1,7 @@
 exports.textTnC = () => {
     return `
 Bot whatsapp Open Source, Ditulis menggunakan javascript.
-Source Code BOT : https://github.com/YogaSakti/imageToSticker
+Source Code BOT : https://github.com/ditinggalrabi/dabonk-bot
 NodeJS WhatsApp library: https://github.com/open-wa/wa-automate-nodejs`
 }
 
@@ -64,8 +64,7 @@ Penggunaan: kirimkan lokasimu lalu balas/quote/reply lokasi yang kamu kirim deng
 5. *#tnc*
 Menampilkan Syarat dan Kondisi Bot.
 
-6. *#donasi*
-menampilkan informasi donasi.
+
 
 Hope you have a great day!✨`
 }
@@ -85,7 +84,7 @@ Untuk mempromosikan member menjadi Admin grup.
 Untuk demosikan Admin grup.
 
 4. *#tagall*
-Untuk mention semua member grup. (Premium Only)
+Untuk mention semua member grup.
 
 5. *#del*
 Untuk menghapus pesan bot (balas pesan bot dengan #del)`
@@ -94,8 +93,8 @@ Untuk menghapus pesan bot (balas pesan bot dengan #del)`
 exports.textDonasi = () => {
     return `
 Hai, terimakasih telah menggunakan bot ini, untuk mendukung bot ini kamu dapat membantu dengan berdonasi melalui link berikut:
-1. Saweria: https://saweria.co/yogasakti
-2. Trakteer: https://trakteer.id/red-emperor 
+1. Saweria: 
+2. Trakteer:  
 
 Donasi akan digunakan untuk pengembangan dan pengoperasian bot ini.
 

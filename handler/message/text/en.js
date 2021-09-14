@@ -1,55 +1,68 @@
 exports.textTnC = () => {
     return `
-Source code / bot is an open-source program (free) written using Javascript, you can use, copy, modify, combine, publish, distribute, sub-license, and or sell copies without removing the main author of the source code / bot.
-By using this source code / bot, you agree to the following Terms and Conditions:
-- Source code / bot does not store your data on our servers.
-- The source code / bot is not responsible for the stickers you make from this bot and the videos, images and other data that you get from the source code / bot.
-- Source code / bot may not be used for services that aim / contribute to:
-    • sex / human trafficking
-    • gambling
-    • harmful addictive behavior
-    • crime
-    • violence (unless necessary to protect public safety)
-    • burning forest/ deforestation
-    • hate speech or discrimination based on age, sex, gender identity, race, sexuality, religion, nationality
-
-Source Code BOT: https://github.com/YogaSakti/imageToSticker
-NodeJS WhatsApp library: https://github.com/open-wa/wa-automate-nodejs
-
-Best regards, Yoga Sakti.`
+Bot whatsapp Open Source, Ditulis menggunakan javascript.
+Source Code BOT : https://github.com/ditinggalrabi/dabonk-bot
+NodeJS WhatsApp library: https://github.com/open-wa/wa-automate-nodejs`
 }
 
 exports.textMenu = (pushname) => {
     return `
-Hi, ${pushname || ''}! 👋️
-Here are some of the features of this bot! ✨
+Hi, ${pushname}! 👋️
+Berikut adalah beberapa fitur yang ada pada bot ini!✨
 
-Sticker Maker:
+Sticker Creator:
 1. *#sticker*
-To convert an image into a sticker, send the image with the caption #sticker or reply to the image that has been sent with #sticker.
+Untuk merubah gambar menjadi sticker. 
+Penggunaan: kirim gambar dengan caption #sticker atau balas gambar yang sudah dikirim dengan #sticker
 
-2. *#stickers* _<Image Url>_
-To change the image from the url to a sticker.
+2. *#sticker* _<Url Gambar>_
+Untuk merubah gambar dari url menjadi sticker. 
+Penggunaan: 
 
 3. *#gifsticker* _<Giphy URL>_ / *#stickergif* _<Giphy URL>_
-To turn a gif into a sticker (Giphy only)
+Untuk merubah gif menjadi sticker (Giphy Only)
+Penggunaan: Kirim pesan dengan format *gifsticker https://media.giphy.com/media/JUvI2c1ddyzkwK4RlV/giphy.gif*
+
+4. *#memesticker* _<teks atas>_ | _<teks bawah>_
+Untuk membuat sticker meme dengan teks atas dan bawah
+Penggunaan: kirim gambar dengan caption _*#meme aku atas | kamu bawah*_, atau juga bisa dengan membalas gambar yang sudah ada.
 
 Downloader:
-1. *#tiktok* _<post / video url>_
-Will return video tiktok.
+1. *#tiktok* _<tiktok url>_
+Untuk mengunduh video dari video tiktok.
+Penggunaan: kirim pesan dengan format *#tiktok https://www.tiktok.com/@itsandani/video/6869248690381425922* 
 
-2. *#fb* _<post / video url>_
-Will return the Facebook video download link.
+2. *#fb* _<post/video url>_
+Untuk mengunduh video dari Facebook.
+Penggunaan: kirim pesan dengan format *#fb https://www.facebook.com/.....*
 
-3. *#ig* _<post / video url>_
-Will return the Instagram video download link.
+3. *#ig* _<instagram post url>_
+Untuk mengunduh photo dan video dari instagram.
+Penggunaan: kirim pesan dengan format *#ig https://www.instagram.com/p/BPOd1vhDMIp/*
 
-4. *#twt* _<post / video url>_
-Will return the Twitter video download link.
+4. *#twt* _<twitter post url>_
+Untuk mengunduh photo dan video dari Twitter.
+Penggunaan: kirim pesan dengan format *#twt https://twitter.com/ntsana_/status/1306108656887324672*
 
-Etc:
-1. *#tnc*
-Displays Bot Terms and Conditions.
+Lain-lain:
+1. *#translate* _<kode bahasa>_
+Untuk mengartikan pesan menjadi bahasa yang ditentukan.
+Penggunaan: Balas/quote/reply pesan yang ingin kamu translate dengan _*#translate id*_ <- id adalah kode bahasa. kode bahasa dapat dilihat di *https://bit.ly/33FVldE*
+
+2. *#resi* _<kurir>_ _<nomer resi>_
+Untuk memeriksa status pengiriman barang, daftar kurir: jne, pos, tiki, wahana, jnt, rpx, sap, sicepat, pcp, jet, dse, first, ninja, lion, idl, rex.
+Penggunaan: kirim pesan dengan format _*#resi jne 1238757632*_
+
+3. *#meme* _<teks atas>_ | _<teks bawah>_
+Untuk membuat meme dengan teks atas dan bawah
+Penggunaan: kirim gambar dengan caption _*#meme aku atas | kamu bawah*_, atau juga bisa dengan membalas gambar yang sudah ada.
+
+4. *#ceklokasi*
+Cek lokasi penyebaran covid-19 di daerah sekitarmu (kelurahan).
+Penggunaan: kirimkan lokasimu lalu balas/quote/reply lokasi yang kamu kirim dengan _*#ceklokasi*_
+
+5. *#tnc*
+Menampilkan Syarat dan Kondisi Bot.
 
 Hope you have a great day!✨`
 }
@@ -57,17 +70,31 @@ Hope you have a great day!✨`
 exports.textAdmin = () => {
     return `
 ⚠ [ *Admin Group Only* ] ⚠ 
-Here are some of the group admin features included in this bot!
+Berikut adalah beberapa fitur admin grup yang ada pada bot ini!
 
 1. *#kick* @user
-Removing members from the group (can be more than 1).
+Untuk mengeluarkan member dari grup (bisa lebih dari 1).
 
 2. *#promote* @user
-Promote members to group admins.
+Untuk mempromosikan member menjadi Admin grup.
 
 3. *#demote* @user
-Demote Group admins.
+Untuk demosikan Admin grup.
 
-3. *#tagall*
-Mention of all group members.`
+4. *#tagall*
+Untuk mention semua member grup.
+
+5. *#del*
+Untuk menghapus pesan bot (balas pesan bot dengan #del)`
+}
+
+exports.textDonasi = () => {
+    return `
+Hai, terimakasih telah menggunakan bot ini, untuk mendukung bot ini kamu dapat membantu dengan berdonasi melalui link berikut:
+1. Saweria: 
+2. Trakteer:  
+
+Donasi akan digunakan untuk pengembangan dan pengoperasian bot ini.
+
+Terimakasih.`
 }

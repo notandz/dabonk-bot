@@ -3,7 +3,7 @@ const { color, messageLog } = require('./utils')
 const msgHandler = require('./handler/message')
 
 const start = (client = new Client()) => {
-    console.log('[DEV]', color('Red Emperor', 'yellow'))
+    console.log('[DEV]', color('DABONK-BOT', 'yellow'))
     console.log('[CLIENT] CLIENT Started!')
 
     // Message log for analytic
