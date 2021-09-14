@@ -18,9 +18,6 @@
 <a href="https://github.com/ditinggalrabi/dabonk-bot/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/ditinggalrabi/dabonkbot?label=Watchers&color=blue&style=flat-square"></a>
 <a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/MAINTENED-YES-blue.svg"</a>
 </p>
-
- 
-# USING LASTEST WA AUTOMATE LIBRARY.
  
 # Whatsapp Bot - DAB0NK
 ## Features
