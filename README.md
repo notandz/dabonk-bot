@@ -17,10 +17,10 @@
 
 | Downloader |                     Feature                |
 | :------------: | :---------------------------------------------: |
-|       ✅        |   Tiktok Downloader (No WM & WM)              |
-|       ✅        |   Twitter Video Downloader                    |
-|       ✅        |   Facebook Video Downloader (SD & HD)         |
-|       ✅        |   Instagram Video Downloader                  |
+|       ❌        |   Tiktok Downloader (No WM & WM) (error)      |
+|       ❌        |   Twitter Video Downloader        (error)     |
+|       ❌        |   Facebook Video Downloader (SD & HD)  (error |
+|       ❌        |   Instagram Video Downloader    (error)       |
 
 
 | Other  |                     Feature                     |
