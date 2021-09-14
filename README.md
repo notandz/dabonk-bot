@@ -55,7 +55,7 @@ Clone this project
 
 ```bash
 > git clone https://github.com/ditinggalrabi/dabonk-bot
-> cd dabonnk-bot
+> cd dabonk-bot
 ```
 
 Install the dependencies:
