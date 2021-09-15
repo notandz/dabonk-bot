@@ -3,7 +3,7 @@
 <h1 align="center"># DABONK BOT PRESENT.</h1>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/mhankbarbar/whatsapp-bot/master/media/img/Kaguya.png" width="128" height="128"/>
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fdyp.im%2Fgambar-anime-keren-lucu%2F&psig=AOvVaw3BsPZDeNJ5oi7dUL3ZNs-I&ust=1631755655329000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMDnpNvp__ICFQAAAAAdAAAAABAU" width="128" height="128"/>
 </p>
 <p align="center">
 <a href="#"><img title="DABONK-BOT" src="https://img.shields.io/badge/Whatsapp Bot-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
