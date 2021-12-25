@@ -28,24 +28,19 @@ const start = (client = new Client()) => {
         client.getGroupMembersId(id)
             .then((ids) => {
                 console.log('[CLIENT]', color(`Invited to Group. [ ${name} => ${ids.length}]`, 'yellow'))
-                // conditions if the group members are less than 10 then the bot will leave the group
-                if (ids.length <= 10) {
-                    client.sendText(id, 'Sorry, the minimum group member is 10 user to use this bot. Bye~').then(() => client.leaveGroup(id))
-                } else {
-                    client.sendText(id, `Hello group members *${name}*, thank you for inviting this bot, to see the bot menu send *#menu*`)
-                }
+                client.sendText(id, `Halo para member *${name}*, makasih udah invite bot ini, salam *#P_MEJAGURAN*`)
             }))
 
     // listen paricipant event on group (wellcome message)
     client.onGlobalParicipantsChanged(async (event) => {
-        // const host = await client.getHostNumber() + '@c.us'
-        // if (event.action === 'add' && event.who !== host) client.sendTextWithMentions(event.chat, `Hello, Welcome to the group @${event.who.replace('@c.us', '')} \n\nHave fun with us✨`)
+        if (event.action == 'add') client.sendTextWithMentions(event.chat, `Welkam!\n*Salam Mejaguran*`)
     })
 
     client.onIncomingCall((callData) => {
         // client.contactBlock(callData.peerJid)
     })
 }
+
 
 const options = {
     sessionId: 'Imperial',
