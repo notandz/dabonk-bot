@@ -6,7 +6,6 @@ const { downloader, cekResi, removebg, urlShortener, meme, translate, getLocatio
 const { msgFilter, color, processTime, is } = require('../../utils')
 const mentionList = require('../../utils/mention')
 const { uploadImages } = require('../../utils/fetcher')
-
 const { menuId, menuEn } = require('./text') // Indonesian & English menu
 
 module.exports = msgHandler = async (client, message) => {
@@ -51,6 +50,9 @@ module.exports = msgHandler = async (client, message) => {
         case 'ping':
             await client.sendText(from, `Pong!!!!\nSpeed: ${processTime(t, moment())} _Second_`)
             break
+        case 'welcome':
+            await client.sendText(from, `Welkam Babi\nyang betah disini\n*salam mejaguran*`)
+            break
         case 'tnc':
             await client.sendText(from, menuId.textTnC())
             break
@@ -64,7 +66,6 @@ module.exports = msgHandler = async (client, message) => {
             if (!isGroupAdmins) return client.reply(from, 'Gagal, perintah ini hanya dapat digunakan oleh admin grup! [Admin Group Only]', id)
             await client.sendText(from, menuId.textAdmin())
             break
-
         // Sticker Creator
         case 'sticker':
         case 'stiker': {
