@@ -3,7 +3,7 @@
 <h1 align="center"># DABONK BOT PRESENT.</h1>
 
 <p align="center">
-<img src="	https://avatars.githubusercontent.com/u/89618518?v=4" width="128" height="128"/>
+<img src="	https://avatars.githubusercontent.com/u/89618518?v=4" width="130" height="130"/>
 </p>
 <p align="center">
 <a href="#"><img title="DABONK-BOT" src="https://img.shields.io/badge/Whatsapp Bot-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
