@@ -94,8 +94,7 @@ Install the dependencies:
 after running it you need to scan the qr
 
 ## Troubleshooting
-Make sure all the necessary dependencies are installed: https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md
-If You Find Error, You Need To Install Visual Studio Developmet Desktop C++
+Make sure all the necessary dependencies are installed: https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md/nIf You Find Error, You Need To Install Visual Studio Developmet Desktop C++
 Remember to remove "canvas" from node modules
 
 Fix Stuck on linux, install google chrome stable: 
